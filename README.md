@@ -266,7 +266,7 @@
 **Успешно завершенные курсы:**
 | 🏆 Go-1 | 🏆 Go-2 | 🏆 Go-3 |
 |---------|---------|---------|
-| <img src="./certificate/certificate.jpg" width="300" alt="Сертификат Go-1"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс <br> *Разработка на Go: основы* | <img src="./certificate/certificate 2.jpg" width="300" alt="Сертификат Go-2"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс <br> *Разработка на Go: продвинутый уровень* | <img src="./certificate/certificate 3.jpg" width="300" alt="Сертификат Go-3"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс <br> *Разработка на Go: продолжение* |
+| <img src="./certificate/certificate.jpg" width="300" alt="Сертификат Go-1"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс | <img src="./certificate/certificate 2.jpg" width="300" alt="Сертификат Go-2"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс | <img src="./certificate/certificate 3.jpg" width="300" alt="Сертификат Go-3"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс |
 | <div align="center">🏆 **SQL**</div> | <div align="center">🏆 **Мат. мышление**</div> | <div align="center">🏆 **PostgreSQL**</div> |
 | <img src="./certificate/certificate 4.jpg" width="300" alt="Сертификат SQL"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс | <img src="./certificate/certificate 5.jpg" width="300" alt="Сертификат Мат. мышление"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс | <img src="./certificate/certificate 6.jpg" width="300" alt="Сертификат PostgreSQL"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс |
 
