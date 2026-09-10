@@ -200,15 +200,15 @@
 
 | № | Тема | Условие | Решение |
 |---|------|---------|---------|
-| 91 | 🔖 Unit-тесты | [📄 условие](./work/task91/task91.md) | [🧪 тест](./work/task91/task91_test.go) |
-| 92 | 🔖 Table-driven | [📄 условие](./work/task92/task92.md) | [🧪 тест](./work/task92/task92_test.go) |
-| 93 | 🔖 Ошибки | [📄 условие](./work/task93/task93.md) | [🧪 тест](./work/task93/task93_test.go) |
-| 94 | 🔖 Структуры | [📄 условие](./work/task94/task94.md) | [🧪 тест](./work/task94/task94_test.go) |
-| 95 | 🔖 Интерфейсы | [📄 условие](./work/task95/task95.md) | [🧪 тест](./work/task95/task95_test.go) |
-| 96 | 🔖 JSON | [📄 условие](./work/task96/task96.md) | [🧪 тест](./work/task96/task96_test.go) |
-| 97 | 🔖 HTTP | [📄 условие](./work/task97/task97.md) | [🧪 тест](./work/task97/task97_test.go) |
-| 98 | 🔖 Каналы | [📄 условие](./work/task98/task98.md) | [🧪 тест](./work/task98/task98_test.go) |
-| 99 | 🔖 WaitGroup | [📄 условие](./work/task99/task99.md) | [🧪 тест](./work/task99/task99_test.go) |
+| &nbsp;91 | 🔖 Unit-тесты | [📄 условие](./work/task91/task91.md) | [🧪 тест](./work/task91/task91_test.go) |
+| &nbsp;92 | 🔖 Table-driven | [📄 условие](./work/task92/task92.md) | [🧪 тест](./work/task92/task92_test.go) |
+| &nbsp;93 | 🔖 Ошибки | [📄 условие](./work/task93/task93.md) | [🧪 тест](./work/task93/task93_test.go) |
+| &nbsp;94 | 🔖 Структуры | [📄 условие](./work/task94/task94.md) | [🧪 тест](./work/task94/task94_test.go) |
+| &nbsp;95 | 🔖 Интерфейсы | [📄 условие](./work/task95/task95.md) | [🧪 тест](./work/task95/task95_test.go) |
+| &nbsp;96 | 🔖 JSON | [📄 условие](./work/task96/task96.md) | [🧪 тест](./work/task96/task96_test.go) |
+| &nbsp;97 | 🔖 HTTP | [📄 условие](./work/task97/task97.md) | [🧪 тест](./work/task97/task97_test.go) |
+| &nbsp;98 | 🔖 Каналы | [📄 условие](./work/task98/task98.md) | [🧪 тест](./work/task98/task98_test.go) |
+| &nbsp;99 | 🔖 WaitGroup | [📄 условие](./work/task99/task99.md) | [🧪 тест](./work/task99/task99_test.go) |
 | 100 | 🔖 Бенчмарки | [📄 условие](./work/task100/task100.md) | [🧪 тест](./work/task100/task100_test.go) |
 
 ---
