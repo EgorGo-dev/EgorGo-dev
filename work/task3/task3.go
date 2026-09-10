@@ -8,7 +8,7 @@ import (
 )
 
 func currentDayOfTheWeek() string {
-	now := time.Now() // В редакторе LMS надо заменить на TimeNow()
+	now := TimeNow()
 	switch now.Weekday() {
 	case time.Monday:
 		return "Понедельник"
@@ -29,7 +29,7 @@ func currentDayOfTheWeek() string {
 }
 
 func dayOrNight() string {
-	now := time.Now() // В редакторе LMS надо заменить на TimeNow()
+	now := TimeNow()
 	hour := now.Hour()
 	if hour >= 10 && hour <= 22 {
 		return "День"
@@ -38,7 +38,7 @@ func dayOrNight() string {
 }
 
 func nextFriday() int {
-	now := time.Now()           // В редакторе LMS надо заменить на TimeNow()
+	now := TimeNow()
 	today := int(now.Weekday()) // число от 0 до 6
 	if today == 5 {
 		return 0
