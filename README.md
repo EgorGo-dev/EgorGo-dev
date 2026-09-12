@@ -63,8 +63,15 @@
 
 ## 🚀 Мои проекты
 
-- **[calc-api](https://github.com/EgorGo-dev/calc-api)** — REST API калькулятор на Go.  
-  Принимает JSON с двумя числами и операцией, считает в горутине.
+### 🧮 calc-api
+
+REST API калькулятор на Go. Принимает JSON, считает в горутине, логирует запросы через middleware.
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![HTTP](https://img.shields.io/badge/HTTP-005571?style=flat)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white)
+
+[**→ Посмотреть проект**](https://github.com/EgorGo-dev/calc-api)
 
 ---
 
