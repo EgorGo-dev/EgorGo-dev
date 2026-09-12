@@ -20,6 +20,19 @@
 
 ---
 
+## 👔 Для рекрутера / работодателя
+
+Хотите быстро оценить мой уровень? Начните с этих **4 задач уровня Boss**:
+
+1. **[REST API на Go](./work/HARDtask1/hardTask.go)** — HTTP-сервер с middleware, JSON и синхронизацией.
+2. **[SQL подзапросы](./work/HARDtask2/hardTask2.sql)** — коррелированные подзапросы, `NOT EXISTS`, обработка дубликатов.
+3. **[Оконные функции в PostgreSQL](./work/HARDtask3/hardTask3.sql)** — `DISTINCT ON`, `RANK`, сложные CTE.
+4. **[Параллелизм в Go](./work/HARDtask4/hardTask4.go)** — горутины, каналы, `sync.WaitGroup`, worker pool.
+
+**Ключевые навыки:** Go · горутины · каналы · синхронизация · HTTP · JSON · SQL · PostgreSQL · оконные функции · CTE · middleware.
+
+---
+
 ## 📖 Содержание
 
 | 👤 **Обо мне** | 🛠 **Стек** | 📊 **Прогресс** | 📝 **Задачи** |
