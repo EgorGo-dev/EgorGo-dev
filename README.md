@@ -19,6 +19,7 @@
 
 ---
 
+<a id="recruiter"></a>
 ### 👔 Для рекрутера / работодателя
 
 <details>
@@ -37,26 +38,14 @@
 
 ## 📖 Содержание
 
-<div align="center">
-
-[![Обо мне](https://img.shields.io/badge/👤_Обо_мне-blue?style=flat-square)](#-обо-мне)
-[![Статистика](https://img.shields.io/badge/📊_Статистика-purple?style=flat-square)](#-статистика-github)
-[![Стек](https://img.shields.io/badge/🛠_Стек-green?style=flat-square)](#-стек)
-[![Прогресс](https://img.shields.io/badge/📈_Прогресс-orange?style=flat-square)](#-прогресс)
-[![Проекты](https://img.shields.io/badge/🚀_Проекты-red?style=flat-square)](#-мои-проекты)
-[![Задачи](https://img.shields.io/badge/📝_Задачи-yellow?style=flat-square)](#-решённые-задачи)
-
-[![Цели](https://img.shields.io/badge/🎯_Цели-brightgreen?style=flat-square)](#-мои-цели)
-[![Что дальше](https://img.shields.io/badge/🔮_Что_дальше-blueviolet?style=flat-square)](#-что-дальше)
-[![Сертификаты](https://img.shields.io/badge/🏆_Сертификаты-yellowgreen?style=flat-square)](#-сертификаты)
-[![Благодарности](https://img.shields.io/badge/🙏_Благодарности-lightgrey?style=flat-square)](#-благодарности)
-[![Контакты](https://img.shields.io/badge/📬_Контакты-blue?style=flat-square)](#-контакты)
-[![Для рекрутера](https://img.shields.io/badge/👔_Для_рекрутера-black?style=flat-square)](#-для-рекрутера--работодателя)
-
-</div>
+| 👤 [Обо мне](#about) | 📊 [Статистика](#stats) | 🛠 [Стек](#stack) | 📈 [Прогресс](#progress) |
+|:---:|:---:|:---:|:---:|
+| 🚀 [Проекты](#projects) | 📝 [Задачи](#tasks) | 🎯 [Цели](#goals) | 🔮 [Что дальше](#next) |
+| 🏆 [Сертификаты](#certs) | 🙏 [Благодарности](#thanks) | 📬 [Контакты](#contacts) | 👔 [Для рекрутера](#recruiter) |
 
 ---
 
+<a id="about"></a>
 ## 👨‍💻 Обо мне
 
 - Мне **14 лет**, начал программировать в 13 с C++, через год перешёл на Go.
@@ -68,15 +57,14 @@
 
 ---
 
+<a id="stats"></a>
 ## 📊 Статистика GitHub
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EgorGo-dev&show_icons=true&theme=dark&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EgorGo-dev&layout=compact&theme=dark&hide_border=true" />
-</div>
+![GitHub Profile Stats](https://kgnio-profile-card.vercel.app/api/card?user=EgorGo-dev&theme=midnight)
 
 ---
 
+<a id="stack"></a>
 ## 🛠 Стек
 
 **Языки и технологии:**  
@@ -88,6 +76,7 @@
 
 ---
 
+<a id="progress"></a>
 ## 📊 Прогресс
 
 | Направление | Количество | Статус |
@@ -100,6 +89,7 @@
 
 ---
 
+<a id="projects"></a>
 ## 🚀 Мои проекты
 
 ### 🧮 calc-api
@@ -114,6 +104,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 
 ---
 
+<a id="tasks"></a>
 ## 📝 Решённые задачи
 
 <details>
@@ -319,6 +310,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 
 ---
 
+<a id="goals"></a>
 ## 🎯 Мои цели
 
 - [x] Пройти Go-1, Go-2, Go-3, SQL, Мат. мышление, PostgreSQL
@@ -330,6 +322,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 
 ---
 
+<a id="next"></a>
 ## 🔮 Что дальше
 
 - 📖 Углубляюсь в алгоритмы и структуры данных
@@ -340,6 +333,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 
 ---
 
+<a id="certs"></a>
 ## 🏆 Сертификаты
 
 **Успешно завершенные курсы:**
@@ -362,6 +356,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 
 ---
 
+<a id="thanks"></a>
 ## 🙏 Благодарности
 
 - **[Яндекс Лицей](https://lyceum.yandex.ru/)** за отличные курсы.
@@ -370,6 +365,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 
 ---
 
+<a id="contacts"></a>
 ## 📬 Контакты
 
 [![GitHub](https://img.shields.io/badge/GitHub-EgorGo--dev-181717?style=for-the-badge&logo=github)](https://github.com/EgorGo-dev)  
