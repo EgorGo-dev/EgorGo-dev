@@ -5,7 +5,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql)](https://postgresql.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github)](https://github.com/EgorGo-dev)
-[![Profile views](https://komarev.com/ghpvc/?username=EgorGo-dev&color=blue)](https://github.com/EgorGo-dev)
+[![GitHub last commit](https://img.shields.io/github/last-commit/EgorGo-dev/EgorGo-dev)](https://github.com/EgorGo-dev/EgorGo-dev)
 
 <div align="center">
   <img src="https://img.shields.io/badge/Go_задач-200%2B-blue?style=for-the-badge&logo=go" />
@@ -54,6 +54,19 @@
 - Решил **200+ задач** на Go, активно изучаю SQL (SQLite/PostgreSQL).
 - 🚀 Интересуюсь бэкендом, высоконагруженными системами и облаками.
 - Всегда открыт к обсуждению кода и новым идеям.
+
+---
+
+<a id="stats"></a>
+## 📊 Статистика GitHub
+
+| 📌 Показатель | 🔢 Значение |
+|---------------|-------------|
+| 🧮 Решено задач | **200+** |
+| 📝 Сертификатов | **6** |
+| 🚀 Проектов | **1** |
+| 📚 Курсов пройдено | **8** |
+| 🎯 Текущий курс | Веб-разработка на Go |
 
 ---
 
@@ -352,7 +365,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 <a id="thanks"></a>
 ## 🙏 Благодарности
 
-- **[Яндекс Лицей](https://lyceum.yandex.ru/)** за отличные курсы.
+- **[Яндекс Лицей](https://lyceum.yandex.ru/)** за отличные курсы — благодаря ему я узнал про Go и вырос как программист. **5 из 6 моих сертификатов — именно от Лицея.**
 - **[Selectel](https://selectel.ru/)** за курс «Погружение в PostgreSQL» — благодаря ему я понял, как работать с PostgreSQL.
 - Всем, кто поддерживает меня звёздочками и добрыми словами.
 
