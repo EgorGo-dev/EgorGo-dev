@@ -20,6 +20,8 @@
 ---
 
 <a id="recruiter"></a>
+<br><br><br><br><br>
+
 ### 👔 Для рекрутера / работодателя
 
 <details>
@@ -36,6 +38,7 @@
 
 ---
 
+
 ## 📖 Содержание
 
 | 👤 [Обо мне](#about) | 📊 [Статистика](#stats) | 🛠 [Стек](#stack) | 📈 [Прогресс](#progress) |
@@ -46,7 +49,7 @@
 ---
 
 <a id="about"></a>
-<div style="height:80px"></div>
+<br><br><br><br><br>
 
 ## 👨‍💻 Обо мне
 
@@ -60,7 +63,7 @@
 ---
 
 <a id="stats"></a>
-<div style="height:80px"></div>
+<br><br><br><br><br>
 
 ## 📊 Статистика GitHub
 
@@ -73,7 +76,7 @@
 ---
 
 <a id="stack"></a>
-<div style="height:80px"></div>
+<br><br><br><br><br>
 
 ## 🛠 Стек
 
@@ -87,7 +90,7 @@
 ---
 
 <a id="progress"></a>
-<div style="height:80px"></div>
+<br><br><br><br><br>
 
 ## 📈 Прогресс
 
@@ -102,7 +105,7 @@
 ---
 
 <a id="projects"></a>
-<div style="height:80px"></div>
+<br><br><br><br><br>
 
 ## 🚀 Мои проекты
 
@@ -119,7 +122,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 ---
 
 <a id="tasks"></a>
-<div style="height:80px"></div>
+<br><br><br><br><br>
 
 ## 📝 Решённые задачи
 
@@ -327,7 +330,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 ---
 
 <a id="goals"></a>
-<div style="height:80px"></div>
+<br><br><br><br><br>
 
 ## 🎯 Мои цели
 
@@ -341,7 +344,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 ---
 
 <a id="next"></a>
-<div style="height:80px"></div>
+<br><br><br><br><br>
 
 ## 🔮 Что дальше
 
@@ -377,7 +380,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 ---
 
 <a id="thanks"></a>
-<div style="height:80px"></div>
+<br><br><br><br><br>
 
 ## 🙏 Благодарности
 
