@@ -5,8 +5,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql)](https://postgresql.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github)](https://github.com/EgorGo-dev)
-[![GitHub stars](https://img.shields.io/github/stars/EgorGo-dev/go-projects?style=social)](https://github.com/EgorGo-dev/go-projects)
-[![GitHub last commit](https://img.shields.io/github/last-commit/EgorGo-dev/go-projects)](https://github.com/EgorGo-dev/go-projects)
+[![Profile views](https://komarev.com/ghpvc/?username=EgorGo-dev&color=blue)](https://github.com/EgorGo-dev)
 
 <div align="center">
   <img src="https://img.shields.io/badge/Go_задач-200%2B-blue?style=for-the-badge&logo=go" />
@@ -38,9 +37,23 @@
 
 ## 📖 Содержание
 
-| 👤 **Обо мне** | 🛠 **Стек** | 📊 **Прогресс** | 📝 **Задачи** |
-|:---:|:---:|:---:|:---:|
-| 🎯 **Цели** | 🏆 **Сертификаты** | 🙏 **Благодарности** | 📬 **Контакты** |
+<div align="center">
+
+[![Обо мне](https://img.shields.io/badge/👤_Обо_мне-blue?style=flat-square)](#-обо-мне)
+[![Статистика](https://img.shields.io/badge/📊_Статистика-purple?style=flat-square)](#-статистика-github)
+[![Стек](https://img.shields.io/badge/🛠_Стек-green?style=flat-square)](#-стек)
+[![Прогресс](https://img.shields.io/badge/📈_Прогресс-orange?style=flat-square)](#-прогресс)
+[![Проекты](https://img.shields.io/badge/🚀_Проекты-red?style=flat-square)](#-мои-проекты)
+[![Задачи](https://img.shields.io/badge/📝_Задачи-yellow?style=flat-square)](#-решённые-задачи)
+
+[![Цели](https://img.shields.io/badge/🎯_Цели-brightgreen?style=flat-square)](#-мои-цели)
+[![Что дальше](https://img.shields.io/badge/🔮_Что_дальше-blueviolet?style=flat-square)](#-что-дальше)
+[![Сертификаты](https://img.shields.io/badge/🏆_Сертификаты-yellowgreen?style=flat-square)](#-сертификаты)
+[![Благодарности](https://img.shields.io/badge/🙏_Благодарности-lightgrey?style=flat-square)](#-благодарности)
+[![Контакты](https://img.shields.io/badge/📬_Контакты-blue?style=flat-square)](#-контакты)
+[![Для рекрутера](https://img.shields.io/badge/👔_Для_рекрутера-black?style=flat-square)](#-для-рекрутера--работодателя)
+
+</div>
 
 ---
 
@@ -52,6 +65,15 @@
 - Решил **200+ задач** на Go, активно изучаю SQL (SQLite/PostgreSQL).
 - 🚀 Интересуюсь бэкендом, высоконагруженными системами и облаками.
 - Всегда открыт к обсуждению кода и новым идеям.
+
+---
+
+## 📊 Статистика GitHub
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=EgorGo-dev&show_icons=true&theme=dark&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EgorGo-dev&layout=compact&theme=dark&hide_border=true" />
+</div>
 
 ---
 
@@ -304,21 +326,29 @@ REST API калькулятор на Go. Принимает JSON, считает
 - [ ] Освоить веб-разработку на Go
 - [ ] Изучить Docker
 - [ ] Познакомиться с Kubernetes
-- [ ] Создать свой первый веб-сервис на Go
+- [ ] Создать второй проект — уже с базой данных
+
+---
+
+## 🔮 Что дальше
+
+- 📖 Углубляюсь в алгоритмы и структуры данных
+- 🌐 Учусь веб-разработке на Go
+- 🐳 Скоро возьмусь за Docker
+- 🚀 Планирую второй проект — API с базой данных на PostgreSQL
+- 🎯 Готовлюсь к поступлению в колледж на IT-специальность
 
 ---
 
 ## 🏆 Сертификаты
 
 **Успешно завершенные курсы:**
+
 | 🏆 Go-1 | 🏆 Go-2 | 🏆 Go-3 |
 |---------|---------|---------|
 | <img src="./certificate/certificate.jpg" width="300" alt="Сертификат Go-1"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс | <img src="./certificate/certificate 2.jpg" width="300" alt="Сертификат Go-2"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс | <img src="./certificate/certificate 3.jpg" width="300" alt="Сертификат Go-3"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс |
 | <div align="center">🏆 **SQL**</div> | <div align="center">🏆 **Мат. мышление**</div> | <div align="center">🏆 **PostgreSQL**</div> |
 | <img src="./certificate/certificate 4.jpg" width="300" alt="Сертификат SQL"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс | <img src="./certificate/certificate 5.jpg" width="300" alt="Сертификат Мат. мышление"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс | <img src="./certificate/certificate 6.jpg" width="300" alt="Сертификат PostgreSQL"> <br> **Егор Геннадьевич Гордеев** <br> self-paced курс |
-
-**Планируемые курсы:**  
-🚀 `Веб-разработка на Go` · `Docker` · `Kubernetes`
 
 *Сертификаты об успешном завершении курсов:*
 - **Go-1:** Разработка на Go: основы  
@@ -326,15 +356,16 @@ REST API калькулятор на Go. Принимает JSON, считает
 - **Go-3:** Разработка на Go: продолжение  
 - **SQL:** SQL: шаг за шагом  
 - **Математическое мышление для программистов**  
-- **PostgreSQL**  
+- **PostgreSQL**
 
-*Планируемые курсы: Веб-разработка на Go, Docker, Kubernetes*
+**Планируемые курсы:** 🚀 `Веб-разработка на Go` · `Docker` · `Kubernetes`
 
 ---
 
 ## 🙏 Благодарности
 
 - **[Яндекс Лицей](https://lyceum.yandex.ru/)** за отличные курсы.
+- **[Selectel](https://selectel.ru/)** за курс «Погружение в PostgreSQL» — благодаря ему я понял, как работать с PostgreSQL.
 - Всем, кто поддерживает меня звёздочками и добрыми словами.
 
 ---
