@@ -2,42 +2,28 @@ package main
 
 import "fmt"
 
-type Product struct {
-	Name  string
-	Price float64
+type Person interface {
+	Who() string
 }
 
-func TotalPrice(product []Product) float64 {
-	var total float64
-	for _, p := range product {
-		total += p.Price
-	}
-	return total
+type Human struct{}
+
+type Robot struct{}
+
+func (h Human) Who() string {
+	return "Привет, я человек"
 }
 
-func MostExpensive(product []Product) (Product, bool) {
-	if len(product) == 0 {
-		return Product{}, false
-	}
-
-	best := product[0]
-	for _, p := range product {
-		if p.Price > best.Price {
-			best = p
-		}
-	}
-
-	return best, true
+func (r Robot) Who() string {
+	return "Привет, я робот"
 }
 
 func main() {
-	products := []Product{
-    {Name: "Книга", Price: 500},
-    {Name: "Ручка", Price: 50},
-    {Name: "Ноутбук", Price: 50000},
-}
+	var p Person
 
-	fmt.Println(TotalPrice(products))          // 50550
-	p, ok := MostExpensive(products)
-	fmt.Println(p.Name, p.Price, ok)  
+	p = Robot{}
+	fmt.Println(p.Who())
+
+	p = Human{}
+	fmt.Println(p.Who())
 }
