@@ -5,7 +5,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql)](https://postgresql.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github)](https://github.com/EgorGo-dev)
-[![GitHub last commit](https://img.shields.io/github/last-commit/EgorGo-dev/EgorGo-dev)](https://github.com/EgorGo-dev/EgorGo-dev)
+[![GitHub last commit](https://img.shields.io/github/last-commit/EgorGo-dev/go-projects)](https://github.com/EgorGo-dev/go-projects)
 
 <div align="center">
   <img src="https://img.shields.io/badge/Go_задач-200%2B-blue?style=for-the-badge&logo=go" />
@@ -32,17 +32,17 @@
 
 **Ключевые навыки:** Go · горутины · каналы · синхронизация · HTTP · JSON · SQL · PostgreSQL · оконные функции · CTE · middleware.
 
+**Статус:** 🟢 Открыт к стажировкам и учебным проектам.
+
 </details>
 
 ---
 
-
 ## 📖 Содержание
 
-| 👤 [Обо мне](#about) | 📊 [Статистика](#stats) | 🛠 [Стек](#stack) | 📈 [Прогресс](#progress) |
+| 👤 [Обо мне](#about) | 🛠 [Стек](#stack) | 📈 [Прогресс](#progress) | 🚀 [Проекты](#projects) |
 |:---:|:---:|:---:|:---:|
-| 🚀 **[Проекты](#projects)** | 📝 **[Задачи](#tasks)** | 🎯 **[Цели](#goals)** | 🔮 **[Что дальше](#next)** |
-| 🏆 **[Сертификаты](#certs)** | 🙏 **[Благодарности](#thanks)** | 📬 **[Контакты](#contacts)** | 👔 **[Для рекрутера](#recruiter)** |
+| 📝 [Задачи](#tasks) | 🎯 [Цели и планы](#goals) | 🏆 [Сертификаты](#certs) | 📬 [Контакты](#contacts) |
 
 ---
 
@@ -55,17 +55,6 @@
 - Решил **200+ задач** на Go, активно изучаю SQL (SQLite/PostgreSQL).
 - 🚀 Интересуюсь бэкендом, высоконагруженными системами и облаками.
 - Всегда открыт к обсуждению кода и новым идеям.
-
----
-
-<a id="stats"></a>
-## 📊 Статистика GitHub
-
-| 📌 Показатель | 🔢 Значение |
-|:--------------|:-----------:|
-| 📅 На GitHub с | **2026** |
-| 📦 Публичных репозиториев | **2** |
-| 💻 Основной язык | **Go** |
 
 ---
 
@@ -316,25 +305,21 @@ REST API калькулятор на Go. Принимает JSON, считает
 ---
 
 <a id="goals"></a>
-## 🎯 Мои цели
+## 🎯 Мои цели и планы
 
+**Уже сделано:**
 - [x] Пройти Go-1, Go-2, Go-3, SQL, Мат. мышление, PostgreSQL
 - [x] Написать свой первый проект — [calc-api](https://github.com/EgorGo-dev/calc-api) 🎉
+
+**В процессе:**
 - [ ] Освоить веб-разработку на Go
+- [ ] Углубить знания в алгоритмах и структурах данных
+
+**Планы:**
 - [ ] Изучить Docker
 - [ ] Познакомиться с Kubernetes
-- [ ] Создать второй проект — уже с базой данных
-
----
-
-<a id="next"></a>
-## 🔮 Что дальше
-
-- 📖 Углубляюсь в алгоритмы и структуры данных
-- 🌐 Учусь веб-разработке на Go
-- 🐳 Скоро возьмусь за Docker
-- 🚀 Планирую второй проект — API с базой данных на PostgreSQL
-- 🎯 Готовлюсь к поступлению в колледж на IT-специальность
+- [ ] Создать второй проект — API с базой данных на PostgreSQL
+- [ ] Подготовиться к поступлению в колледж на IT-специальность
 
 ---
 
