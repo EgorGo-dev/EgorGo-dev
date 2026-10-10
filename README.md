@@ -64,9 +64,14 @@
 **Языки и технологии:**  
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Инструменты:** Git · GitHub · VS Code  
-**Пакеты Go (Стандартная библиотека):** `fmt` · `time` · `strings` · `strconv` · `log` · `errors` · `slices` · `io` · `os` · `sync` · `regexp` · `context` · `net/http` · `testing` · `math`  
-**Пакеты Go (Сторонние):** `go.uber.org/zap`
+**Инструменты:** Git · GitHub · VS Code
+
+**Go — HTTP и JSON:** `net/http` · `encoding/json`  
+**Go — конкурентность:** `sync` · `context`  
+**Go — работа с данными:** `io` · `os` · `strings` · `strconv`  
+**Go — логирование и ошибки:** `log` · `errors` · `go.uber.org/zap`  
+**Go — тестирование:** `testing` · `net/http/httptest`  
+**Go — база:** `fmt` · `time`
 
 ---
 
