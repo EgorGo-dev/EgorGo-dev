@@ -1,0 +1,18 @@
+# Binaries
+*.exe
+*.out
+*.test
+/bin/
+
+# Env
+.env
+
+# IDE
+.idea
+.vscode
+.DS_Store
+
+4_1/.env
+bin/
+.vscode/
+.idea/

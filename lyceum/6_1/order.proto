@@ -1,0 +1,90 @@
+syntax = "proto3";
+
+package order;
+
+import "google/api/annotations.proto";
+
+option go_package = "./pb";
+
+// OrderService управляет заказами. HTTP-маршруты обслуживает grpc-gateway.
+service OrderService {
+  // CreateOrder создаёт заказ и возвращает его идентификатор.
+  rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse) {
+    option (google.api.http) = {
+      post: "/v1/orders"
+      body: "*"
+    };
+  }
+  // GetOrder возвращает заказ по идентификатору.
+  rpc GetOrder(GetOrderRequest) returns (GetOrderResponse) {
+    option (google.api.http) = {
+      get: "/v1/orders/{id}"
+    };
+  }
+  // UpdateOrder обновляет заказ по идентификатору.
+  rpc UpdateOrder(UpdateOrderRequest) returns (UpdateOrderResponse) {
+    option (google.api.http) = {
+      put: "/v1/orders/{id}"
+      body: "*"
+    };
+  }
+  // DeleteOrder удаляет заказ по идентификатору.
+  rpc DeleteOrder(DeleteOrderRequest) returns (DeleteOrderResponse) {
+    option (google.api.http) = {
+      delete: "/v1/orders/{id}"
+    };
+  }
+  // ListOrders возвращает все заказы.
+  rpc ListOrders(ListOrdersRequest) returns (ListOrdersResponse) {
+    option (google.api.http) = {
+      get: "/v1/orders"
+    };
+  }
+}
+
+message Order {
+  string id = 1;
+  string item = 2;
+  int32 quantity = 3;
+}
+
+message CreateOrderRequest {
+  string item = 1;
+  int32 quantity = 2;
+}
+
+message CreateOrderResponse {
+  string id = 1;
+}
+
+message GetOrderRequest {
+  string id = 1;
+}
+
+message GetOrderResponse {
+  Order order = 1;
+}
+
+message UpdateOrderRequest {
+  string id = 1;
+  string item = 2;
+  int32 quantity = 3;
+}
+
+message UpdateOrderResponse {
+  Order order = 1;
+}
+
+message DeleteOrderRequest {
+  string id = 1;
+}
+
+message DeleteOrderResponse {
+  bool success = 1;
+}
+
+message ListOrdersRequest {}
+
+message ListOrdersResponse {
+  repeated Order orders = 1;
+}

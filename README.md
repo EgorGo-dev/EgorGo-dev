@@ -27,18 +27,18 @@
 <summary><b>Хотите быстро оценить мой уровень? Начните с этих 5+5 работ</b> (нажмите, чтобы развернуть)</summary>
 
 **⚙️ Микросервисы (Курс Яндекс Лицея) — от базового к сложному:**
-1. **[Задача 3.1: Базовый gRPC-сервис](./385779-yam-ato-course-1745/3_1/)** — CRUD на gRPC с защитой `sync.Mutex`.
-2. **[Задача 4.1: Конфигурация и Интерсепторы](./385779-yam-ato-course-1745/4_1/)** — работа с `.env` и логирование запросов.
-3. **[Задача 5.1: grpc-gateway и Graceful Shutdown](./385779-yam-ato-course-1745/5_1/)** — HTTP-шлюз и корректное завершение работы.
-4. **[Задача 6.1: Docker + PostgreSQL + gRPC Gateway](./385779-yam-ato-course-1745/6_1/)** — полноценный сервис с БД, миграциями и Docker Compose.
-5. **[Задача 7.1: Паттерны отказоустойчивости](./project7_1.md)** — Retry, Timeout, Dead Letter Queue *(в процессе — ожидает исправления проверяющей системы на платформе)*.
+1. **[Задача 3.1: Базовый gRPC-сервис](./lyceum/3_1/)** — CRUD на gRPC с защитой `sync.Mutex`.
+2. **[Задача 4.1: Конфигурация и Интерсепторы](./lyceum/4_1/)** — работа с `.env` и логирование запросов.
+3. **[Задача 5.1: grpc-gateway и Graceful Shutdown](./lyceum/5_1/)** — HTTP-шлюз и корректное завершение работы.
+4. **[Задача 6.1: Docker + PostgreSQL + gRPC Gateway](./lyceum/6_1/)** — полноценный сервис с БД, миграциями и Docker Compose.
+5. **[Задача 7.1: Паттерны отказоустойчивости](./lyceum/task_descriptions/project7_1.md)** — Retry, Timeout, Dead Letter Queue *(в процессе — ожидает исправления проверяющей системы на платформе)*.
 
 **💀 Алгоритмы, SQL и параллелизм (Boss Level) — от простого к сложному:**
 1. **[SQL подзапросы](./work/HARDtask2/hardTask2.sql)** — коррелированные подзапросы, `NOT EXISTS`, обработка дубликатов.
 2. **[REST API & Middleware на Go](./work/HARDtask1/hardTask.go)** — HTTP-сервер с логированием через `slog`, JSON и `sync.Mutex`.
 3. **[Оконные функции в PostgreSQL](./work/HARDtask3/hardTask3.sql)** — `DISTINCT ON`, `RANK`, сложные CTE.
 4. **[Параллелизм в Go](./work/HARDtask4/hardTask4.go)** — горутины, каналы, семафоры, `sync.WaitGroup`, worker pool.
-5. **[Задача 7.1: Паттерны отказоустойчивости](./385779-yam-ato-course-1745/task_descriptions/project7_1.md)** — Retry, Timeout, Dead Letter Queue *(в процессе — ожидает исправления проверяющей системы на платформе)*.
+5. **[Задача 7.1: Паттерны отказоустойчивости](./project7_1.md)** — Retry, Timeout, Dead Letter Queue *(в процессе — ожидает исправления проверяющей системы на платформе)*.
 
 **Ключевые навыки:** Go · горутины · каналы · gRPC · REST API · Docker · SQL · PostgreSQL · оконные функции · CTE · middleware.
 
@@ -138,11 +138,11 @@ REST API калькулятор на Go. Принимает JSON, считает
 
 | ⚡ Задача | 🔖 Тема | 📄 Условие | 🌳 Структура | 📌 Язык | 🧠 Сложность |
 |-----------|---------|------------|--------------|---------|--------------|
-| **3.1** | 🔖 Базовый gRPC | 📄 [условие](./385779-yam-ato-course-1745/task_descriptions/project3_1.md) | 🌳 [Структура](./385779-yam-ato-course-1745/struct/STRUCT3_1.md) | **Go** | 🧠🧠🧠🧠🧠 |
-| **4.1** | 🔖 Конфиги (.env) | 📄 [условие](./385779-yam-ato-course-1745/task_descriptions/project4_1.md) | 🌳 [Структура](./385779-yam-ato-course-1745/struct/STRUCT4_1.md) | **Go** | 🧠🧠🧠🧠🧠🧠 |
-| **5.1** | 🔖 grpc-gateway | 📄 [условие](./385779-yam-ato-course-1745/task_descriptions/project5_1.md) | 🌳 [Структура](./385779-yam-ato-course-1745/struct/STRUCT5_1.md) | **Go** | 🧠🧠🧠🧠🧠🧠🧠🧠 |
-| **6.1** | 🔖 Docker + Postgres | 📄 [условие](./385779-yam-ato-course-1745/task_descriptions/project6_1.md) | 🌳 [Структура](./385779-yam-ato-course-1745/struct/STRUCT6_1.md) | **Go, SQL** | 🧠🧠🧠🧠🧠🧠🧠🧠🧠🧠 |
-| **7.1** | 🔖 Resilience | 📄 [условие](./385779-yam-ato-course-1745/task_descriptions/project7_1.md) | ⏳ *в процессе* | **Go** | 🧠🧠🧠🧠🧠🧠🧠 |
+| **3.1** | 🔖 Базовый gRPC | 📄 [условие](./lyceum/task_descriptions/project3_1.md) | 🌳 [Структура](./lyceum/struct/STRUCT3_1.md) | **Go** | 🧠🧠🧠🧠🧠 |
+| **4.1** | 🔖 Конфиги (.env) | 📄 [условие](./lyceum/task_descriptions/project4_1.md) | 🌳 [Структура](./lyceum/struct/STRUCT4_1.md) | **Go** | 🧠🧠🧠🧠🧠🧠 |
+| **5.1** | 🔖 grpc-gateway | 📄 [условие](./lyceum/task_descriptions/project5_1.md) | 🌳 [Структура](./lyceum/struct/STRUCT5_1.md) | **Go** | 🧠🧠🧠🧠🧠🧠🧠🧠 |
+| **6.1** | 🔖 Docker + Postgres | 📄 [условие](./lyceum/task_descriptions/project6_1.md) | 🌳 [Структура](./lyceum/struct/STRUCT6_1.md) | **Go, SQL** | 🧠🧠🧠🧠🧠🧠🧠🧠🧠🧠 |
+| **7.1** | 🔖 Resilience | 📄 [условие](./lyceum/task_descriptions/project7_1.md) | ⏳ *в процессе* | **Go** | 🧠🧠🧠🧠🧠🧠🧠 |
 
 </details>
 
