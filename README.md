@@ -124,7 +124,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 > *(Шкала сложности: 10 — это база, каждый 🧠 добавляет +1)*
 
 | ⚡ Задача | 🔖 Тема | 📄 Условие | 💻/🗄️ Решение | 📌 Язык | 🧠 Сложность |
-|:---:|:---|:---|:---|:---:|:---:|
+|:---:|:---|:---|:---|:---:|:---|
 | **1.** | 🔖 REST API & Middleware | 📄 [условие](./work/HARDtask1/hardTask.md) | 💻 [решение](./work/HARDtask1/hardTask.go) | **Go** | 🧠🧠🧠🧠 |
 | **2.** | 🔖 Подзапросы | 📄 [условие](./work/HARDtask2/hardTask2.md) | 🗄️ [решение](./work/HARDtask2/hardTask2.sql) | **SQLite** | 🧠🧠 |
 | **3.** | 🔖 Оконные функции | 📄 [условие](./work/HARDtask3/hardTask3.md) | 🗄️ [решение](./work/HARDtask3/hardTask3.sql) | **PostgreSQL** | 🧠🧠🧠🧠🧠 |
@@ -140,7 +140,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 > *(Классическая шкала сложности: от 1 до 10 🧠)*
 
 | ⚡ Задача | 🔖 Тема | 📄 Условие | 🌳 Структура | 📌 Язык | 🧠 Сложность |
-|:---:|:---|:---|:---|:---:|:---:|
+|:---:|:---|:---|:---|:---:|:---|
 | **3.1** | 🔖 Базовый gRPC | 📄 [условие](./lyceum/task_descriptions/project3_1.md) | 🌳 [Структура](./lyceum/struct/STRUCT3_1.md) | **Go** | 🧠🧠🧠🧠🧠 |
 | **4.1** | 🔖 Конфиги (.env) | 📄 [условие](./lyceum/task_descriptions/project4_1.md) | 🌳 [Структура](./lyceum/struct/STRUCT4_1.md) | **Go** | 🧠🧠🧠🧠🧠🧠 |
 | **5.1** | 🔖 grpc-gateway | 📄 [условие](./lyceum/task_descriptions/project5_1.md) | 🌳 [Структура](./lyceum/struct/STRUCT5_1.md) | **Go** | 🧠🧠🧠🧠🧠🧠🧠🧠 |
