@@ -3,9 +3,10 @@
 [![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)
 [![SQLite](https://img.shields.io/badge/SQLite-3-blue?logo=sqlite)](https://sqlite.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql)](https://postgresql.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github)](https://github.com/EgorGo-dev)
-[![GitHub last commit](https://img.shields.io/github/last-commit/EgorGo-dev/go-projects)](https://github.com/EgorGo-dev/go-projects)
+[![GitHub last commit](https://img.shields.io/github/last-commit/EgorGo-dev/EgorGo-dev)](https://github.com/EgorGo-dev/EgorGo-dev)
 
 <div align="center">
   <img src="https://img.shields.io/badge/Go_задач-200%2B-blue?style=for-the-badge&logo=go" />
@@ -23,14 +24,23 @@
 ### 👔 Для рекрутера / работодателя
 
 <details>
-<summary><b>Хотите быстро оценить мой уровень? Начните с этих 4 задач уровня Boss</b> (нажмите, чтобы развернуть)</summary>
+<summary><b>Хотите быстро оценить мой уровень? Начните с этих 5+5 работ</b> (нажмите, чтобы развернуть)</summary>
 
-1. **[REST API на Go](./work/HARDtask1/hardTask.go)** — HTTP-сервер с middleware, JSON и синхронизацией.
-2. **[SQL подзапросы](./work/HARDtask2/hardTask2.sql)** — коррелированные подзапросы, `NOT EXISTS`, обработка дубликатов.
+**⚙️ Микросервисы (Курс Яндекс Лицея) — от базового к сложному:**
+1. **[Задача 3.1: Базовый gRPC-сервис](./385779-yam-ato-course-1745/3_1/)** — CRUD на gRPC с защитой `sync.Mutex`.
+2. **[Задача 4.1: Конфигурация и Интерсепторы](./385779-yam-ato-course-1745/4_1/)** — работа с `.env` и логирование запросов.
+3. **[Задача 5.1: grpc-gateway и Graceful Shutdown](./385779-yam-ato-course-1745/5_1/)** — HTTP-шлюз и корректное завершение работы.
+4. **[Задача 6.1: Docker + PostgreSQL + gRPC Gateway](./385779-yam-ato-course-1745/6_1/)** — полноценный сервис с БД, миграциями и Docker Compose.
+5. **[Задача 7.1: Паттерны отказоустойчивости](./project7_1.md)** — Retry, Timeout, Dead Letter Queue *(в процессе — ожидает исправления проверяющей системы на платформе)*.
+
+**💀 Алгоритмы, SQL и параллелизм (Boss Level) — от простого к сложному:**
+1. **[SQL подзапросы](./work/HARDtask2/hardTask2.sql)** — коррелированные подзапросы, `NOT EXISTS`, обработка дубликатов.
+2. **[REST API & Middleware на Go](./work/HARDtask1/hardTask.go)** — HTTP-сервер с логированием через `slog`, JSON и `sync.Mutex`.
 3. **[Оконные функции в PostgreSQL](./work/HARDtask3/hardTask3.sql)** — `DISTINCT ON`, `RANK`, сложные CTE.
-4. **[Параллелизм в Go](./work/HARDtask4/hardTask4.go)** — горутины, каналы, `sync.WaitGroup`, worker pool.
+4. **[Параллелизм в Go](./work/HARDtask4/hardTask4.go)** — горутины, каналы, семафоры, `sync.WaitGroup`, worker pool.
+5. **[Задача 7.1: Паттерны отказоустойчивости](./385779-yam-ato-course-1745/task_descriptions/project7_1.md)** — Retry, Timeout, Dead Letter Queue *(в процессе — ожидает исправления проверяющей системы на платформе)*.
 
-**Ключевые навыки:** Go · горутины · каналы · синхронизация · HTTP · JSON · SQL · PostgreSQL · оконные функции · CTE · middleware.
+**Ключевые навыки:** Go · горутины · каналы · gRPC · REST API · Docker · SQL · PostgreSQL · оконные функции · CTE · middleware.
 
 **Статус:** 🟢 Открыт к стажировкам и учебным проектам.
 
@@ -62,13 +72,13 @@
 ## 🛠 Стек
 
 **Языки и технологии:**  
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-**Инструменты:** Git · GitHub · VS Code
+**Инструменты:** Git · GitHub · VS Code · Docker Compose
 
 **Go — HTTP и JSON:** `net/http` · `encoding/json`  
 **Go — конкурентность:** `sync` · `context`  
-**Go — работа с данными:** `io` · `os` · `strings` · `strconv`  
+**Go — работа с данными:** `io` · `os` · `strings` · `strconv` · `pgx`  
 **Go — логирование и ошибки:** `log` · `errors` · `go.uber.org/zap`  
 **Go — тестирование:** `testing` · `net/http/httptest`  
 **Go — база:** `fmt` · `time`
@@ -105,6 +115,36 @@ REST API калькулятор на Go. Принимает JSON, считает
 
 <a id="tasks"></a>
 ## 📝 Решённые задачи
+
+<details>
+<summary><b>💀🔥 Сверхсложные задачи — БОСС-УРОВЕНЬ</b> (нажмите, чтобы развернуть)</summary>
+
+> ⚠️ **Внимание!** Эти задачи требуют нестандартного мышления, глубокого понимания **Go** 💻 или **SQL (SQLite/PostgreSQL)** 🗄️ и железных нервов.  
+> Подходите с осторожностью – здесь не место для слабаков! ⚔️
+> *(Шкала сложности: 10 — это база, каждый 🧠 добавляет +1)*
+
+| ⚡ Задача | 🔖 Тема | 📄 Условие | 💻/🗄️ Решение | 📌 Язык | 🧠 Сложность |
+|-----------|---------|------------|----------------|---------|--------------|
+| **1.** | 🔖 REST API & Middleware | 📄 [условие](./work/HARDtask1/hardTask.md) | 💻 [решение](./work/HARDtask1/hardTask.go) | **Go** | 🧠🧠🧠🧠 |
+| **2.** | 🔖 Подзапросы | 📄 [условие](./work/HARDtask2/hardTask2.md) | 🗄️ [решение](./work/HARDtask2/hardTask2.sql) | **SQLite** | 🧠🧠 |
+| **3.** | 🔖 Оконные функции | 📄 [условие](./work/HARDtask3/hardTask3.md) | 🗄️ [решение](./work/HARDtask3/hardTask3.sql) | **PostgreSQL** | 🧠🧠🧠🧠🧠 |
+| **4.** | 🔖 Параллелизм (Worker Pool) | 📄 [условие](./work/HARDtask4/hardTask4.md) | 💻 [решение](./work/HARDtask4/hardTask4.go) | **Go** | 🧠🧠🧠🧠🧠🧠 |
+
+---
+
+### 🎓 Курс Go от Яндекс Лицея (Микросервисы)
+> *От базового gRPC до полноценного Docker-контейнера с PostgreSQL.*
+> *(Классическая шкала сложности: от 1 до 10 🧠)*
+
+| ⚡ Задача | 🔖 Тема | 📄 Условие | 🌳 Структура | 📌 Язык | 🧠 Сложность |
+|-----------|---------|------------|--------------|---------|--------------|
+| **3.1** | 🔖 Базовый gRPC | 📄 [условие](./385779-yam-ato-course-1745/task_descriptions/project3_1.md) | 🌳 [Структура](./385779-yam-ato-course-1745/struct/STRUCT3_1.md) | **Go** | 🧠🧠🧠🧠🧠 |
+| **4.1** | 🔖 Конфиги (.env) | 📄 [условие](./385779-yam-ato-course-1745/task_descriptions/project4_1.md) | 🌳 [Структура](./385779-yam-ato-course-1745/struct/STRUCT4_1.md) | **Go** | 🧠🧠🧠🧠🧠🧠 |
+| **5.1** | 🔖 grpc-gateway | 📄 [условие](./385779-yam-ato-course-1745/task_descriptions/project5_1.md) | 🌳 [Структура](./385779-yam-ato-course-1745/struct/STRUCT5_1.md) | **Go** | 🧠🧠🧠🧠🧠🧠🧠🧠 |
+| **6.1** | 🔖 Docker + Postgres | 📄 [условие](./385779-yam-ato-course-1745/task_descriptions/project6_1.md) | 🌳 [Структура](./385779-yam-ato-course-1745/struct/STRUCT6_1.md) | **Go, SQL** | 🧠🧠🧠🧠🧠🧠🧠🧠🧠🧠 |
+| **7.1** | 🔖 Resilience | 📄 [условие](./385779-yam-ato-course-1745/task_descriptions/project7_1.md) | ⏳ *в процессе* | **Go** | 🧠🧠🧠🧠🧠🧠🧠 |
+
+</details>
 
 <details>
 <summary><b>📋 Контрольные работы и сложные задачи</b> (нажмите, чтобы развернуть)</summary>
@@ -248,26 +288,6 @@ REST API калькулятор на Go. Принимает JSON, считает
 | &nbsp;99 | 🔖 WaitGroup | [📄 условие](./work/task99/task99.md) | [🧪 тест](./work/task99/task99_test.go) |
 | 100 | 🔖 Бенчмарки | [📄 условие](./work/task100/task100.md) | [🧪 тест](./work/task100/task100_test.go) |
 
----
-
-</details>
-
-<br>
-
-<details>
-<summary><b>💀🔥 Сверхсложные задачи — БОСС-УРОВЕНЬ</b> (нажмите, чтобы развернуть)</summary>
-
-> ⚠️ **Внимание!** Эти задачи требуют нестандартного мышления, глубокого понимания **Go** 💻 или **SQL (SQLite/PostgreSQL)** 🗄️ и железных нервов.  
-> Подходите с осторожностью – здесь не место для слабаков! ⚔️
-
-| ⚡ Задача | 🔖 Тема | 📄 Условие | 💻/🗄️ Решение | 📌 Язык | 🧠 Сложность |
-|-----------|---------|------------|----------------|---------|--------------|
-| **1.** | 🔖 REST API | 📄 [условие](./work/HARDtask1/hardTask.md) | 💻 [решение](./work/HARDtask1/hardTask.go) | **Go** | 🧠🧠🧠 |
-| **2.** | 🔖 Подзапросы | 📄 [условие](./work/HARDtask2/hardTask2.md) | 🗄️ [решение](./work/HARDtask2/hardTask2.sql) | **SQLite** | 🧠 |
-| **3.** | 🔖 Оконные | 📄 [условие](./work/HARDtask3/hardTask3.md) | 🗄️ [решение](./work/HARDtask3/hardTask3.sql) | **PostgreSQL** | 🧠🧠🧠🧠 |
-| **4.** | 🔖 Параллелизм | 📄 [условие](./work/HARDtask4/hardTask4.md) | 💻 [решение](./work/HARDtask4/hardTask4.go) | **Go** | 🧠🧠🧠🧠 |
-| **5.** | — | — | — | — | — |
-
 </details>
 
 <br>
@@ -315,14 +335,15 @@ REST API калькулятор на Go. Принимает JSON, считает
 **Уже сделано:**
 - [x] Пройти Go-1, Go-2, Go-3, SQL, Мат. мышление, PostgreSQL
 - [x] Написать свой первый проект — [calc-api](https://github.com/EgorGo-dev/calc-api) 🎉
+- [x] Изучить Docker, gRPC и работу с базами данных (PostgreSQL) в рамках курса Лицея
 
 **В процессе:**
 - [ ] Освоить веб-разработку на Go
 - [ ] Углубить знания в алгоритмах и структурах данных
 
 **Планы:**
-- [ ] Изучить Docker
 - [ ] Познакомиться с Kubernetes
+- [ ] Изучить CI/CD (GitHub Actions)
 - [ ] Создать второй проект — API с базой данных на PostgreSQL
 - [ ] Подготовиться к поступлению в колледж на IT-специальность
 
@@ -347,7 +368,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 - **Математическое мышление для программистов**  
 - **PostgreSQL**
 
-**Планируемые курсы:** 🚀 `Веб-разработка на Go` · `Docker` · `Kubernetes`
+**Планируемые курсы:** 🚀 `Kubernetes` · `CI/CD` · `System Design`
 
 ---
 
