@@ -33,12 +33,11 @@
 4. **[Задача 6.1: Docker + PostgreSQL + gRPC Gateway](./lyceum/6_1/)** — полноценный сервис с БД, миграциями и Docker Compose.
 5. **[Задача 7.1: Паттерны отказоустойчивости](./lyceum/task_descriptions/project7_1.md)** — Retry, Timeout, Dead Letter Queue *(в процессе — ожидает исправления проверяющей системы на платформе)*.
 
-**💀 Алгоритмы, SQL и параллелизм (Boss Level) — от простого к сложному:**
 1. **[SQL подзапросы](./work/HARDtask2/hardTask2.sql)** — коррелированные подзапросы, `NOT EXISTS`, обработка дубликатов.
 2. **[REST API & Middleware на Go](./work/HARDtask1/hardTask.go)** — HTTP-сервер с логированием через `slog`, JSON и `sync.Mutex`.
-3. **[Оконные функции в PostgreSQL](./work/HARDtask3/hardTask3.sql)** — `DISTINCT ON`, `RANK`, сложные CTE.
-4. **[Параллелизм в Go](./work/HARDtask4/hardTask4.go)** — горутины, каналы, семафоры, `sync.WaitGroup`, worker pool.
-5. **[Задача 7.1: Паттерны отказоустойчивости](./project7_1.md)** — Retry, Timeout, Dead Letter Queue *(в процессе — ожидает исправления проверяющей системы на платформе)*.
+3. **[calc-api](https://github.com/EgorGo-dev/calc-api)** — мой первый самостоятельный проект (REST API калькулятор с горутинами).
+4. **[Оконные функции в PostgreSQL](./work/HARDtask3/hardTask3.sql)** — `DISTINCT ON`, `RANK`, сложные CTE.
+5. **[Параллелизм в Go](./work/HARDtask4/hardTask4.go)** — горутины, каналы, семафоры, `sync.WaitGroup`, worker pool.
 
 **Ключевые навыки:** Go · горутины · каналы · gRPC · REST API · Docker · SQL · PostgreSQL · оконные функции · CTE · middleware.
 
@@ -76,10 +75,11 @@
 
 **Инструменты:** Git · GitHub · VS Code · Docker Compose
 
-**Go — HTTP и JSON:** `net/http` · `encoding/json`  
-**Go — конкурентность:** `sync` · `context`  
-**Go — работа с данными:** `io` · `os` · `strings` · `strconv` · `pgx`  
-**Go — логирование и ошибки:** `log` · `errors` · `go.uber.org/zap`  
+**Go — HTTP, gRPC и JSON:** `net/http` · `encoding/json` · `google.golang.org/grpc` · `grpc-gateway`  
+**Go — конкурентность:** `sync` · `context` · `goroutines` · `channels`  
+**Go — работа с данными:** `io` · `os` · `strings` · `strconv` · `database/sql` · `pgxpool`  
+**Go — конфигурация:** `github.com/joho/godotenv`  
+**Go — логирование и ошибки:** `log` · `log/slog` · `errors` · `go.uber.org/zap`  
 **Go — тестирование:** `testing` · `net/http/httptest`  
 **Go — база:** `fmt` · `time`
 
