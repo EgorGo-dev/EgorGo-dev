@@ -77,7 +77,7 @@
 
 **Go — HTTP, gRPC и JSON:** `net/http` · `encoding/json` · `google.golang.org/grpc` · `grpc-gateway`  
 **Go — конкурентность:** `sync` · `context` · `goroutines` · `channels`  
-**Go — работа с данными:** `io` · `os` · `strings` · `strconv` · `database/sql` · `pgxpool`  
+**Go — работа с данными:** `io` · `os` · `bufio` · `strings` · `strconv` · `database/sql` · `pgxpool`  
 **Go — конфигурация:** `github.com/joho/godotenv`  
 **Go — логирование и ошибки:** `log` · `log/slog` · `errors` · `go.uber.org/zap`  
 **Go — тестирование:** `testing` · `net/http/httptest`  
