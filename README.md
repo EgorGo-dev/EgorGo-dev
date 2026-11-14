@@ -391,6 +391,7 @@ REST API калькулятор на Go. Принимает JSON, считает
 ## 📬 Контакты
 
 [![GitHub](https://img.shields.io/badge/GitHub-EgorGo--dev-181717?style=for-the-badge&logo=github)](https://github.com/EgorGo-dev)  
+[![Telegram](https://img.shields.io/badge/Telegram-@GorooGo-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/GorooGo)  
 [![Email](https://img.shields.io/badge/Email-gpp220512@gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:gpp220512@gmail.com)
 
 ---
