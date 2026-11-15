@@ -27,17 +27,18 @@
 <summary><b>Хотите быстро оценить мой уровень? Начните с этих 5+5 работ</b> (нажмите, чтобы развернуть)</summary>
 
 **⚙️ Микросервисы (Курс Яндекс Лицея) — от базового к сложному:**
-1. **[Задача 3.1: Базовый gRPC-сервис](./lyceum/3_1/)** — CRUD на gRPC с защитой `sync.Mutex`.
-2. **[Задача 4.1: Конфигурация и Интерсепторы](./lyceum/4_1/)** — работа с `.env` и логирование запросов.
-3. **[Задача 5.1: grpc-gateway и Graceful Shutdown](./lyceum/5_1/)** — HTTP-шлюз и корректное завершение работы.
-4. **[Задача 6.1: Docker + PostgreSQL + gRPC Gateway](./lyceum/6_1/)** — полноценный сервис с БД, миграциями и Docker Compose.
-5. **[Задача 7.1: Паттерны отказоустойчивости](./lyceum/task_descriptions/project7_1.md)** — Retry, Timeout, Dead Letter Queue *(в процессе — ожидает исправления проверяющей системы на платформе)*.
+1. **[Задача 3.1: Базовый gRPC-сервис](./lyceum/struct/STRUCT3_1.md)** *(📄 [условие](./lyceum/task_descriptions/project3_1.md))* — CRUD на gRPC с защитой `sync.Mutex`.
+2. **[Задача 4.1: Конфигурация и Интерсепторы](./lyceum/struct/STRUCT4_1.md)** *(📄 [условие](./lyceum/task_descriptions/project4_1.md))* — работа с `.env` и логирование запросов.
+3. **[Задача 5.1: grpc-gateway и Graceful Shutdown](./lyceum/struct/STRUCT5_1.md)** *(📄 [условие](./lyceum/task_descriptions/project5_1.md))* — HTTP-шлюз и корректное завершение работы.
+4. **[Задача 6.1: Docker + PostgreSQL + gRPC Gateway](./lyceum/struct/STRUCT6_1.md)** *(📄 [условие](./lyceum/task_descriptions/project6_1.md))* — полноценный сервис с БД, миграциями и Docker Compose.
+5. **[Задача 7.1: Паттерны отказоустойчивости](./project7_1.md)** *(📄 [условие](./lyceum/task_descriptions/project7_1.md))* — Retry, Timeout, Dead Letter Queue *(в процессе)*.
 
-1. **[SQL подзапросы](./work/HARDtask2/hardTask2.sql)** — коррелированные подзапросы, `NOT EXISTS`, обработка дубликатов.
-2. **[REST API & Middleware на Go](./work/HARDtask1/hardTask.go)** — HTTP-сервер с логированием через `slog`, JSON и `sync.Mutex`.
-3. **[calc-api](https://github.com/EgorGo-dev/calc-api)** — мой первый самостоятельный проект (REST API калькулятор с горутинами).
-4. **[Оконные функции в PostgreSQL](./work/HARDtask3/hardTask3.sql)** — `DISTINCT ON`, `RANK`, сложные CTE.
-5. **[Параллелизм в Go](./work/HARDtask4/hardTask4.go)** — горутины, каналы, семафоры, `sync.WaitGroup`, worker pool.
+**💀 Алгоритмы, SQL, параллелизм и проекты (Boss Level) — от простого к сложному:**
+1. **[SQL подзапросы](./work/HARDtask2/hardTask2.sql)** *(📄 [условие](./work/HARDtask2/hardTask2.md))* — коррелированные подзапросы, `NOT EXISTS`.
+2. **[REST API & Middleware на Go](./work/HARDtask1/hardTask.go)** *(📄 [условие](./work/HARDtask1/hardTask.md))* — HTTP-сервер с логированием через `slog`, JSON и `sync.Mutex`.
+3. **[calc-api](https://github.com/EgorGo-dev/calc-api)** — мой первый самостоятельный проект.
+4. **[Оконные функции в PostgreSQL](./work/HARDtask3/hardTask3.sql)** *(📄 [условие](./work/HARDtask3/hardTask3.md))* — `DISTINCT ON`, `RANK`, сложные CTE.
+5. **[Параллелизм в Go](./work/HARDtask4/hardTask4.go)** *(📄 [условие](./work/HARDtask4/hardTask4.md))* — горутины, каналы, семафоры, worker pool.
 
 **Ключевые навыки:** Go · горутины · каналы · gRPC · REST API · Docker · SQL · PostgreSQL · оконные функции · CTE · middleware.
 
