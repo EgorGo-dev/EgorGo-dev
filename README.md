@@ -30,8 +30,8 @@
 1. **[Задача 3.1: Базовый gRPC-сервис](./lyceum/struct/STRUCT3_1.md)** *(📄 [условие](./lyceum/task_descriptions/project3_1.md))* — CRUD на gRPC с защитой `sync.Mutex`.
 2. **[Задача 4.1: Конфигурация и Интерсепторы](./lyceum/struct/STRUCT4_1.md)** *(📄 [условие](./lyceum/task_descriptions/project4_1.md))* — работа с `.env` и логирование запросов.
 3. **[Задача 5.1: grpc-gateway и Graceful Shutdown](./lyceum/struct/STRUCT5_1.md)** *(📄 [условие](./lyceum/task_descriptions/project5_1.md))* — HTTP-шлюз и корректное завершение работы.
-4. **[Задача 6.1: Docker + PostgreSQL + gRPC Gateway](./lyceum/struct/STRUCT6_1.md)** *(📄 [условие](./lyceum/task_descriptions/project6_1.md))* — полноценный сервис с БД, миграциями и Docker Compose.
-5. **[Задача 7.1: Паттерны отказоустойчивости](./lyceum/struct/STRUCT7_1.md)** *(📄 [условие](./lyceum/task_descriptions/project7_1.md))* — Retry, Timeout, Dead Letter Queue.
+4. **[Задача 7.1: Паттерны отказоустойчивости](./lyceum/struct/STRUCT7_1.md)** *(📄 [условие](./lyceum/task_descriptions/project7_1.md))* — Retry, Timeout, Dead Letter Queue.
+5. **[Задача 6.1: Docker + PostgreSQL + gRPC Gateway](./lyceum/struct/STRUCT6_1.md)** *(📄 [условие](./lyceum/task_descriptions/project6_1.md))* — полноценный сервис с БД, миграциями и Docker Compose.
 
 **💀 Алгоритмы, SQL, параллелизм и проекты (Boss Level) — от простого к сложному:**
 1. **[SQL подзапросы](./work/HARDtask2/hardTask2.sql)** *(📄 [условие](./work/HARDtask2/hardTask2.md))* — коррелированные подзапросы, `NOT EXISTS`.
